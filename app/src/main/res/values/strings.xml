@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">App4Go</string>
+    <string name="Intro">Topics Covered</string>
+    <string name="simage">Sample Image</string>
+    <string name="show_btn">Show</string>
+    <string name="hide_btn">Hide</string>
+    <string name="movie">Movies</string>
+    <string name="sport">Sports</string>
+    <string name="tab_home">Home</string>
+    <string name="tab_android">Android</string>
+    <string name="tab_php">PHP</string>
+    <string name="tab_java">Java</string>
+    <string name="search">Search</string>
+    <string name="em">Input website address</string>
+    <string name="FA">First Activity</string>
+    <string name="CSA">Call Second Activity</string>
+    <string name="SA">Second Activity</string>
+    <string name="CFA">Call First Activity</string>
+    <string name="STFA">Switch To First Activity</string>
+    <string name="STSA">Switch To Second Activity</string>
+    <string name="defMessage">Default Message</string>
+    <string name="getMessage">Get Message</string>
+    <string name="inputMessage">Input Message</string>
+    <string name="submit">Submit</string>
+    <string name="shareapp">Share App</string>
+    <string name="call">Call</string>
+    <string name="sms">SMS</string>
+    <string name="click">Click</string>
+    <string name="one">One</string>
+    <string name="two">Two</string>
+    <string name="three">Three</string>
+    <string name="startService">Start Service</string>
+    <string name="stopService">Stop Service</string>
+    <string name="nextPage">Next Page</string>
+    <string name="newPage">This is the new page/ Activity</string>
+</resources>

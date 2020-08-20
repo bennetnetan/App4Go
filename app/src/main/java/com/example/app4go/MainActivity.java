@@ -21,7 +21,8 @@ public class MainActivity extends AppCompatActivity {
     String[] hlinks = {"View Stub", "Tab Layout", "TabLayout with FrameLayout", "Searchview",
             "Searchview on Toolbar", "Activity Life Cycle", "Implicit intent", "Explicit intent",
             "Start Activity For Result", "Share App Data (ACTION_SEND)", "Option Menu Example",
-            "Context or Floating Menu", "Popup Menu", "Introduction to Android services"};
+            "Context or Floating Menu", "Popup Menu", "Introduction to Android services",
+            "Alarm Manager Example", "Android Preferences"};
     private ArrayAdapter<String> arrayAdapter;
 
     @Override
@@ -71,6 +72,10 @@ public class MainActivity extends AppCompatActivity {
                         shift(PopUpMenu.class);
                     } else if (position == 13) {
                         shift(IntroServices.class);
+                    } else if (position == 14) {
+                        shift(AlarmMan.class);
+                    } else if (position == 15) {
+                        shift(SharedPrefs.class);
                     } else {
                         Toast.makeText(MainActivity.this, "Welcome here!", Toast.LENGTH_SHORT).show();
                     }

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+    <PrefernceCategory
+        android:summary="Username and password information"
+        android:title="Login Information">
+        <EditTextPrefernce
+            android:key="username"
+            android:summary="Please enter your username and password"
+            android:title="Username"/>
+
+        <EditTextPreference
+            android:key="password"
+            android:summary="Enter the password"
+            android:title="Password"/>
+    </PrefernceCategory>
+
+    <PreferenceCategory
+        android:summary="Username and password information"
+        android:title="Settings">
+        <CheckBoxPreference
+            android:key="checkbox"
+            android:summary="On/Off"
+            android:title="Keep me logged in"/>
+
+        <ListPrefence
+            android:key="listpref"
+            android:entries="@array/listOptions"
+            android:entryValues="@array/listValues"
+            android:summary="List preference example"
+            android:title="List Preference"/>
+    </PreferenceCategory>
+</PreferenceScreen>

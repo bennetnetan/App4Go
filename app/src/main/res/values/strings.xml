@@ -33,4 +33,9 @@
     <string name="stopService">Stop Service</string>
     <string name="nextPage">Next Page</string>
     <string name="newPage">This is the new page/ Activity</string>
+    <string name="date_">Date</string>
+    <string name="start_btn">Start</string>
+    <string name="data_sharedPrefs">Data</string>
+    <string name="store_SharedPrefs">Store Information</string>
+    <string name="show_SharedPrefs">Show Infromation</string>
 </resources>

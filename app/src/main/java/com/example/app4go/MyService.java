@@ -22,7 +22,7 @@ public class MyService extends Service {
     public void onCreate() {
         Toast.makeText(this, "Service Created", Toast.LENGTH_SHORT).show();
 
-        myplayer = MediaPlayer.create(this, R.raw.mus);
+        myplayer = MediaPlayer.create(this, R.raw.ins);
         myplayer.setLooping(false);//set looping
         Toast.makeText(this, "Service Started", Toast.LENGTH_LONG).show();
         myplayer.start();

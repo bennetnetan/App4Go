@@ -9,10 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Prefs2"></activity>
+        <activity android:name=".PrefsActivity"></activity>
+        <activity android:name=".SharedPrefs" />
+        <activity android:name=".AlarmMan" />
+
+        <receiver android:name=".MyBroadcastReciever" />
+
         <service
             android:name=".MyService"
             android:enabled="true"
-            android:exported="true"></service>
+            android:exported="true" />
 
         <activity android:name=".ServicesTwo" />
         <activity android:name=".IntroServices" />

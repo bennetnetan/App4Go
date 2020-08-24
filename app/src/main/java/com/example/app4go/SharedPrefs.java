@@ -33,7 +33,7 @@ public class SharedPrefs extends AppCompatActivity {
                     case R.id.button10:
                         try{
                             Toast.makeText(SharedPrefs.this, "I'm here", Toast.LENGTH_SHORT).show();
-                            Intent intent = new Intent(SharedPrefs.this, PrefsActivity.class);
+                            Intent intent = new Intent(SharedPrefs.this, Prefs2.class);
                             startActivity(intent);
                         }catch (Exception e){
                             Toast.makeText(SharedPrefs.this, e.toString(), Toast.LENGTH_LONG).show();

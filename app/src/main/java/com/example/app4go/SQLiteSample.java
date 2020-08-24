@@ -1,12 +1,14 @@
 package com.example.app4go;
 
-import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import androidx.appcompat.app.AppCompatActivity;
 
-public class PrefsActivity extends PreferenceActivity {
+import android.os.Bundle;
+
+public class SQLiteSample extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.prefs);
+        setContentView(R.layout.activity_sqlite_sample);
     }
 }

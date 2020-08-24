@@ -22,7 +22,8 @@ public class MainActivity extends AppCompatActivity {
             "Searchview on Toolbar", "Activity Life Cycle", "Implicit intent", "Explicit intent",
             "Start Activity For Result", "Share App Data (ACTION_SEND)", "Option Menu Example",
             "Context or Floating Menu", "Popup Menu", "Introduction to Android services",
-            "Alarm Manager Example", "Android Preferences"};
+            "Alarm Manager Example", "Android Preferences", "Internal Storage", "External Storage",
+            "SQLite Sample"};
     private ArrayAdapter<String> arrayAdapter;
 
     @Override
@@ -76,6 +77,12 @@ public class MainActivity extends AppCompatActivity {
                         shift(AlarmMan.class);
                     } else if (position == 15) {
                         shift(SharedPrefs.class);
+                    } else if(position == 16){
+                        shift(InStorage.class);
+                    } else if (position == 17) {
+                        shift(ExStorage.class);
+                    } else if (position == 18) {
+                        shift(SQLiteS.class);
                     } else {
                         Toast.makeText(MainActivity.this, "Welcome here!", Toast.LENGTH_SHORT).show();
                     }

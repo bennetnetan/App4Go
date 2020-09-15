@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             "Start Activity For Result", "Share App Data (ACTION_SEND)", "Option Menu Example",
             "Context or Floating Menu", "Popup Menu", "Introduction to Android services",
             "Alarm Manager Example", "Android Preferences", "Internal Storage", "External Storage",
-            "SQLite Sample"};
+            "SQLite Sample", "SAX XML Parsing", "DOM XML Parsing", "JSON PARSING", "Media player example"};
     private ArrayAdapter<String> arrayAdapter;
 
     @Override
@@ -83,6 +83,14 @@ public class MainActivity extends AppCompatActivity {
                         shift(ExStorage.class);
                     } else if (position == 18) {
                         shift(SQLiteS.class);
+                    } else if (position == 19) {
+                        shift(SAXXMLParsing.class);
+                    } else if (position == 20) {
+                        shift(DOMXMLParsing.class);
+                    } else if (position == 21) {
+                        shift(JSONPar.class);
+                    } else if (position == 22) {
+                        shift(MedPlay.class);
                     } else {
                         Toast.makeText(MainActivity.this, "Welcome here!", Toast.LENGTH_SHORT).show();
                     }

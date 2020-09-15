@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SQLiteS"></activity>
+        <activity android:name=".MedPlay"></activity>
+        <activity android:name=".JSONPar" />
+        <activity android:name=".DOMXMLParsing" />
+        <activity android:name=".SAXXMLParsing" />
+        <activity android:name=".SQLiteS" />
         <activity android:name=".SQLiteSample" /> <!-- <uses-permisions android:name="android.permission.WRITE_EXTERNAL_STORAGE"/> -->
         <activity android:name=".ExStorage" />
         <activity android:name=".InStorage" />
